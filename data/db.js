@@ -7,8 +7,9 @@ const appUrl = `http://localhost${appPort ? ":" + appPort : ""}`;
 
 
 
-
-const posts = [
+// ! DEBUG
+let posts = [
+// const posts = [
   {
     id: 1,
     title: "Ciambellone",
